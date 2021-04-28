@@ -28,4 +28,9 @@ public class Fraccion {
 		return this.numerador + this.denominador;
 	}
 	
+	public int Resta() {
+		return this.numerador - this.denominador;
+	}
+	
+	
 }

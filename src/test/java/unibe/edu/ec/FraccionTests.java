@@ -18,5 +18,10 @@ public class FraccionTests {
 	public void Suma() {
 		assertEquals(10, this.p1.Suma());
 	}
+	
+	@Test
+	public void Resta() {
+		assertEquals(4, this.p1.Resta());
+	}
 
 }
