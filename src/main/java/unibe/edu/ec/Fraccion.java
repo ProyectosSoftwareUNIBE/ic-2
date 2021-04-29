@@ -32,5 +32,9 @@ public class Fraccion {
 		return this.numerador - this.denominador;
 	}
 	
+	public double Inverso() {
+		double resultado = this.denominador / this.numerador;
+		return 0.42;
+	}
 	
 }

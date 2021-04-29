@@ -23,5 +23,11 @@ public class FraccionTests {
 	public void Resta() {
 		assertEquals(4, this.p1.Resta());
 	}
+	
+	@Test
+	public void Inverso() {
+		assertEquals(0.4, this.p1.Inverso(),0.02);
+	}
+	
 
 }
